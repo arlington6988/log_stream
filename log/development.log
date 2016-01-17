@@ -1,0 +1,1962 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-15 17:31:09 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 75ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:35:08 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 18ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-15 17:35:23 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:40:57 -0500
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (57.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (58.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:42:47 -0500
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (25.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:53:54 -0500
+Processing by MessagesController#index as HTML
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template messages/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/jjones2/gitdir/streamtest/logstream/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (19.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:56:59 -0500
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.1ms)
+  [1m[36m (81.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (66.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateMessages (20160115225431)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160115225431"]]
+  [1m[35m (77.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:57:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @messages.each do |message| %>
+    14:       <tr>
+    15:         <td><%= link_to 'Show', message %></td>
+    16:         <td><%= link_to 'Edit', edit_message_path(message) %></td>
+  app/views/messages/index.html.erb:13:in `_app_views_messages_index_html_erb__1962142210243027660_69892808351500'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.5ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 17:59:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @messages.each do |message| %>
+    14:       <tr>
+    15:         <td><%= link_to 'Show', message %></td>
+    16:         <td><%= link_to 'Edit', edit_message_path(message) %></td>
+  app/views/messages/index.html.erb:13:in `_app_views_messages_index_html_erb___3302739655739607018_70100107632380'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-15 18:00:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1396ms (Views: 1385.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-15 18:00:43 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-15 18:00:43 -0500
+
+
+Started GET "/assets/scaffolds.self-949a73d813573546825acf67c56ae8d03f8a656382d652dc04f2932277180ff8.css?body=1" for 127.0.0.1 at 2016-01-15 18:00:43 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-15 18:00:43 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-15 18:00:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-15 18:00:43 -0500
+
+
+Started GET "/messages" for 127.0.0.1 at 2016-01-15 18:00:48 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-16 08:43:32 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 234ms (Views: 213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-16 08:43:48 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2016-01-16 08:44:02 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-16 08:46:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 194ms (Views: 186.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/scaffolds.self-949a73d813573546825acf67c56ae8d03f8a656382d652dc04f2932277180ff8.css?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-01-16 08:46:36 -0500
+
+
+Started GET "/messages/stream" for 127.0.0.1 at 2016-01-16 08:46:41 -0500
+
+AbstractController::ActionNotFound (The action 'show' could not be found for MessagesController):
+  actionpack (4.2.5) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-16 08:50:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 175ms (Views: 167.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2016-01-16 08:51:02 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-16 08:51:10 -0500
+
+LoadError (Unable to autoload constant StreamController, expected /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-16 08:52:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 182ms (Views: 172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-16 08:52:51 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-16 08:52:57 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 10004ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-16 08:59:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 169ms (Views: 161.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-16 08:59:50 -0500
+Processing by StreamController#stream as */*
+Completed 200 OK in 10004ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/scaffolds.self-949a73d813573546825acf67c56ae8d03f8a656382d652dc04f2932277180ff8.css?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-16 09:00:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-16 09:00:26 -0500
+Processing by StreamController#stream as HTML
+Completed 500 Internal Server Error in 7004ms (ActiveRecord: 0.0ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+
+ActionController::Live::ClientDisconnected (client disconnected):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:147:in `write'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:9:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:8:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:8:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/scaffolds.self-949a73d813573546825acf67c56ae8d03f8a656382d652dc04f2932277180ff8.css?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-01-16 09:15:12 -0500
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-16 09:15:22 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 10004ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 10:07:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 530ms (Views: 506.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 10:08:12 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 10006ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 11:02:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 533ms (Views: 508.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 11:02:27 -0500
+Processing by StreamController#stream as HTML
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+
+NameError (undefined local variable or method `number_of_lines_old' for #<StreamController:0x007f76a9f56320>):
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:11:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:8:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:8:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (102.5ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 11:05:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 535ms (Views: 509.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 11:06:19 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 11:06:25 -0500
+Processing by StreamController#stream as HTML
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+Completed 200 OK in 10101ms (ActiveRecord: 0.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (105.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 11:13:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 528ms (Views: 504.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 11:13:41 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 11:13:47 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 10027ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 12:09:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 544ms (Views: 519.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 12:09:56 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 12:10:01 -0500
+Processing by StreamController#stream as HTML
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 12:10:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StreamController#stream as HTML
+Completed 200 OK in 10078ms (ActiveRecord: 0.0ms)
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.8ms)
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+Completed 200 OK in 10111ms (ActiveRecord: 0.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.3ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 12:17:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 543ms (Views: 516.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 12:17:37 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 12:17:41 -0500
+Processing by StreamController#stream as HTML
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 12:17:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StreamController#stream as HTML
+Completed 500 Internal Server Error in 10084ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template stream/stream, application/stream with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/jjones2/gitdir/streamtest/logstream/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (67.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.7ms)
+Completed 500 Internal Server Error in 10115ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template stream/stream, application/stream with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/jjones2/gitdir/streamtest/logstream/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (67.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.7ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 12:19:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 12:19:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 631ms (Views: 602.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 627ms (Views: 596.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+Started GET "/assets/scaffolds.self-949a73d813573546825acf67c56ae8d03f8a656382d652dc04f2932277180ff8.css?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 12:19:24 -0500
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 12:19:28 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 10088ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 12:21:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 12:21:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 809ms (Views: 780.7ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 728ms (Views: 687.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 12:22:06 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 100316ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:14:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 533ms (Views: 508.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:14:46 -0500
+Processing by StreamController#stream as HTML
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:16:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 588ms (Views: 560.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:16:18 -0500
+Processing by StreamController#stream as HTML
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:16:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StreamController#stream as HTML
+Completed 200 OK in 100311ms (ActiveRecord: 0.0ms)
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (2.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (101.3ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:17:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:17:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StreamController#stream as HTML
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:17:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StreamController#stream as HTML
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+
+NameError (undefined local variable or method `old_last' for #<StreamController:0x00000001435cf0>):
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:13:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:9:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:9:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+
+RuntimeError (can't modify frozen Hash):
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:316:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:530:in `[]='
+  actionpack (4.2.5) lib/action_dispatch/middleware/session/cookie_store.rb:110:in `set_cookie'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:351:in `commit_session'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.23) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 0.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.5ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.0ms)
+
+NameError (undefined local variable or method `old_last' for #<StreamController:0x00000001434080>):
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:13:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:9:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:9:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.5ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.1ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (140.7ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.4ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.9ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.6ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/jjones2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (109.6ms)
+Completed 200 OK in 869ms (Views: 840.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:20:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 525ms (Views: 500.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:20:48 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:20:53 -0500
+Processing by StreamController#stream as HTML
+Completed 500 Internal Server Error in 57152ms (ActiveRecord: 0.0ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+
+ActionController::Live::ClientDisconnected (client disconnected):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:147:in `write'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:14:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:10:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:10:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:33:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:33:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 655ms (Views: 616.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 609ms (Views: 578.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:33:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 528ms (Views: 503.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/scaffolds.self-949a73d813573546825acf67c56ae8d03f8a656382d652dc04f2932277180ff8.css?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-01-17 13:34:03 -0500
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:34:27 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 100989ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:41:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 548ms (Views: 524.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:41:53 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:41:57 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 100973ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:51:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 577ms (Views: 552.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:51:16 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 13:51:20 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 101004ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 13:59:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 533ms (Views: 507.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 13:59:57 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:00:03 -0500
+Processing by StreamController#stream as HTML
+Completed 500 Internal Server Error in 1021ms (ActiveRecord: 0.0ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+
+NoMethodError (undefined method `-' for "434\n":String):
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:15:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:10:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:10:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:02:48 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 524ms (Views: 500.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:03:02 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:03:06 -0500
+Processing by StreamController#stream as HTML
+Completed 500 Internal Server Error in 1018ms (ActiveRecord: 0.0ms)
+
+IOError (closed stream):
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/response.rb:89:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:138:in `write'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:282:in `rescue in block in process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:295:in `block in process'
+
+
+
+NoMethodError (undefined method `-' for "472\n":String):
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:15:in `block in stream'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:10:in `times'
+  /home/jjones2/gitdir/streamtest/logstream/app/controllers/stream_controller.rb:10:in `stream'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_controller/metal/live.rb:278:in `block in process'
+
+
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:04:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 547ms (Views: 521.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:04:09 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:04:13 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 100992ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:07:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 536ms (Views: 511.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:07:20 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:07:28 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 100929ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:12:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:12:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 662ms (Views: 623.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 624ms (Views: 594.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:12:49 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 101069ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:16:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 536ms (Views: 512.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:16:40 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:16:44 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 101221ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:43:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 547ms (Views: 520.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:43:12 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:43:15 -0500
+Processing by StreamController#stream as HTML
+Completed   in 54226ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:45:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:45:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 672ms (Views: 642.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 651ms (Views: 620.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:45:21 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 78481ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:50:37 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 543ms (Views: 517.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:50:41 -0500
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:50:45 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 66820ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 14:58:51 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-17 14:58:51 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 664ms (Views: 635.8ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 623ms (Views: 593.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stream/stream" for 127.0.0.1 at 2016-01-17 14:58:56 -0500
+Processing by StreamController#stream as HTML
+Completed 200 OK in 81726ms (ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-01-17 17:37:16 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 195ms (Views: 186.9ms | ActiveRecord: 0.0ms)
