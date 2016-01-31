@@ -3,7 +3,7 @@ class StreamController < ApplicationController
 
 
 
-    def stream(pid='0000',logfile="/log/test.txt")
+    def stream(pid, logfile)
         old_last = "first"
 	old_number_of_lines = 0
 	response.header['Content-Type'] = 'text/event'

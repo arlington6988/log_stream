@@ -1732,3 +1732,644 @@ App 18633 stdout:
 [ 2016-01-17 17:37:26.5138 18517/7f2739e7b740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 18633, application /home/jjones2/gitdir/log_stream/public (development)
 [ 2016-01-17 17:37:26.5140 18524/7ff054b11740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
 [ 2016-01-17 17:37:26.7264 18517/7f2739e7b740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:11:34.2152 4741/7f54962b7740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:11:34.2631 4744/7f2114016740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:11:34.2638 4744/7f2114016740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:11:34.2787 4744/7f2114016740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 4744
+[ 2016-01-31 16:11:34.3455 4751/7f4133926740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:11:34.3468 4751/7f4133926740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 4751
+App 4789 stdout: 
+App 4890 stdout: 
+App 4897 stdout: 
+
+
+[ 2016-01-31 16:12:08.2368 4744/7f2111f49700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:12:08.2368 4751/7f4131a38700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:12:08.2369 4751/7f4133926740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:12:08.2369 4744/7f2114016740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:12:08.2369 4744/7f2114016740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 4890, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:12:08.2370 4751/7f4131a38700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:12:08.2370 4744/7f2114016740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 4897, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:12:08.2372 4751/7f4131237700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:12:08.2372 4751/7f4131237700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:12:08.2373 4744/7f20ebfff700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:12:08.2373 4744/7f20ebfff700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:12:08.2375 4744/7f21116c7700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:12:08.2375 4744/7f21116c7700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:12:08.2378 4744/7f2110e45700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:12:08.2378 4751/7f4133926740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:12:08.2379 4744/7f2110e45700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:12:08.2382 4744/7f2111f49700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:12:08.2382 4744/7f2111f49700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:12:08.2395 4744/7f20eb7fe700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:12:08.2396 4744/7f20eb7fe700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:12:08.2398 4744/7f2114016740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 4890, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:12:08.2398 4744/7f2114016740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 4897, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:12:08.5534 4744/7f2114016740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:32:04.3473 11214/7f9204f9e740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:32:04.3551 11217/7f3380212740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:32:04.3553 11217/7f3380212740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:32:04.3580 11217/7f3380212740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 11217
+[ 2016-01-31 16:32:04.3679 11224/7f4e9df20740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:32:04.3686 11224/7f4e9df20740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 11224
+App 11262 stdout: 
+App 11334 stdout: 
+App 11389 stdout: 
+
+
+[ 2016-01-31 16:33:12.6620 11224/7f4e97fff700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:33:12.6620 11217/7f337e145700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:33:12.6620 11224/7f4e9df20740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:33:12.6621 11217/7f3380212740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:33:12.6622 11217/7f3380212740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 11334, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:33:12.6622 11224/7f4e97fff700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:33:12.6622 11224/7f4e977fe700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:33:12.6623 11224/7f4e977fe700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:33:12.6623 11217/7f3380212740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 11389, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:33:12.6626 11217/7f33677fe700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:33:12.6626 11217/7f337e145700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:33:12.6627 11217/7f33677fe700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:33:12.6627 11217/7f337e145700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:33:12.6629 11217/7f3367fff700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:33:12.6630 11217/7f3367fff700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:33:12.6630 11217/7f337d041700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:33:12.6630 11217/7f337d041700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:33:12.6632 11217/7f337d8c3700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:33:12.6633 11217/7f337d8c3700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:33:12.6634 11217/7f3380212740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 11334, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:33:12.6635 11217/7f3380212740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 11389, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:33:12.6680 11224/7f4e9df20740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:33:12.8805 11217/7f3380212740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:35:48.7175 12007/7f19b9b07740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:35:48.7258 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:35:48.7261 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:35:48.7293 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 12010
+[ 2016-01-31 16:35:48.7401 12017/7fdd7a4a5740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:35:48.7407 12017/7fdd7a4a5740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 12017
+App 12055 stdout: 
+App 12126 stdout: 
+App 12133 stdout: 
+App 12145 stdout: 
+
+
+[ 2016-01-31 16:36:04.7513 12017/7fdd73fff700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:36:04.7513 12010/7fc47dee6700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:36:04.7514 12017/7fdd7a4a5740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:36:04.7514 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:36:04.7515 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12126, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:36:04.7516 12017/7fdd737fe700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:36:04.7516 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12133, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:36:04.7516 12017/7fdd737fe700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:36:04.7517 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12145, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:36:04.7517 12017/7fdd73fff700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:36:04.7520 12010/7fc477fff700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:36:04.7520 12010/7fc4777fe700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:36:04.7520 12010/7fc4777fe700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:36:04.7520 12010/7fc477fff700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:36:04.7522 12010/7fc47dee6700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:36:04.7523 12010/7fc47dee6700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:36:04.7523 12010/7fc47cde2700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:36:04.7524 12010/7fc47cde2700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:36:04.7526 12010/7fc47d664700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:36:04.7527 12010/7fc47d664700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:36:04.7528 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12126, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:36:04.7529 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12133, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:36:04.7529 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12145, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:36:04.7529 12017/7fdd7a4a5740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:36:05.0668 12010/7fc47ffb3740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:38:01.5877 12534/7fd39c0a1740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:38:01.5938 12537/7f35ce120740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:38:01.5940 12537/7f35ce120740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:38:01.5962 12537/7f35ce120740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 12537
+[ 2016-01-31 16:38:01.6031 12542/7efe581dd740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:38:01.6038 12542/7efe581dd740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 12542
+App 12583 stdout: 
+App 12654 stdout: 
+
+
+[ 2016-01-31 16:38:07.6480 12537/7f35bffff700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:38:07.6481 12542/7efe562ef700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:38:07.6481 12537/7f35ce120740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:38:07.6482 12542/7efe581dd740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:38:07.6482 12537/7f35ce120740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12654, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:07.6483 12542/7efe562ef700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:38:07.6484 12542/7efe55aee700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:38:07.6484 12542/7efe55aee700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:38:07.6486 12537/7f35bf77d700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:38:07.6487 12537/7f35bf77d700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:38:07.6488 12537/7f35bddf7700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:38:07.6489 12537/7f35bddf7700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:38:07.6493 12537/7f35beefb700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:38:07.6493 12542/7efe581dd740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:38:07.6494 12537/7f35beefb700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:38:07.6496 12537/7f35be679700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:38:07.6496 12537/7f35be679700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:38:07.6498 12537/7f35bffff700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:38:07.6498 12537/7f35bffff700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:38:07.6499 12537/7f35ce120740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 12654, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:07.8624 12537/7f35ce120740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:38:25.2237 12903/7fee25cb9740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:38:25.2302 12906/7f4bd352e740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:38:25.2304 12906/7f4bd352e740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:38:25.2330 12906/7f4bd352e740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 12906
+[ 2016-01-31 16:38:25.2414 12913/7f9e11085740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:38:25.2419 12913/7f9e11085740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 12913
+App 12951 stdout: 
+App 13022 stdout: 
+App 13032 stdout: 
+App 13046 stdout: 
+App 13054 stdout: 
+
+
+[ 2016-01-31 16:38:50.9048 12906/7f4bd1461700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:38:50.9049 12913/7f9e0f197700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:38:50.9049 12906/7f4bd352e740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:38:50.9050 12913/7f9e11085740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:38:50.9050 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13022, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9051 12913/7f9e0f197700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:38:50.9051 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13032, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9051 12913/7f9e0e996700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:38:50.9052 12913/7f9e0e996700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:38:50.9052 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13046, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9052 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13054, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9055 12906/7f4bd0bdf700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:38:50.9056 12906/7f4bd0bdf700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:38:50.9057 12906/7f4bb2ffd700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:38:50.9058 12906/7f4bb2ffd700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:38:50.9058 12906/7f4bb3fff700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:38:50.9059 12906/7f4bb3fff700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:38:50.9059 12913/7f9e11085740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:38:50.9061 12906/7f4bb37fe700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:38:50.9062 12906/7f4bb37fe700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:38:50.9064 12906/7f4bd1461700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:38:50.9064 12906/7f4bd1461700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:38:50.9066 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13022, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9067 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13032, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9068 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13046, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:50.9068 12906/7f4bd352e740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13054, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:38:51.2289 12906/7f4bd352e740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:39:19.7399 13266/7f2ba62ab740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:39:19.7459 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:39:19.7461 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:39:19.7484 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 13269
+[ 2016-01-31 16:39:19.7563 13276/7f834cd8c740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:39:19.7568 13276/7f834cd8c740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 13276
+App 13315 stdout: 
+App 13386 stdout: 
+App 13394 stdout: 
+App 13406 stdout: 
+
+
+[ 2016-01-31 16:39:52.0887 13269/7fa27b6f6700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:39:52.0887 13276/7f834ae9e700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:39:52.0888 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:39:52.0888 13276/7f834cd8c740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:39:52.0888 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13386, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:39:52.0889 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13394, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:39:52.0889 13276/7f834a69d700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:39:52.0890 13276/7f834a69d700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:39:52.0890 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13406, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:39:52.0890 13276/7f834ae9e700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:39:52.0892 13269/7fa27ae74700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:39:52.0893 13269/7fa27ae74700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:39:52.0893 13269/7fa279d70700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:39:52.0893 13269/7fa279d70700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:39:52.0894 13276/7f834cd8c740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:39:52.0895 13269/7fa27a5f2700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:39:52.0896 13269/7fa27a5f2700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:39:52.0898 13269/7fa27b6f6700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:39:52.0898 13269/7fa27b6f6700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:39:52.0899 13269/7fa2794ee700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:39:52.0899 13269/7fa2794ee700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:39:52.0900 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13386, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:39:52.0901 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13394, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:39:52.0902 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13406, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:39:52.4034 13269/7fa27d7c3740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:40:31.2319 13774/7f8e3c556740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:40:31.2375 13777/7fe9de454740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:40:31.2377 13777/7fe9de454740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:40:31.2398 13777/7fe9de454740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 13777
+[ 2016-01-31 16:40:31.2480 13782/7fb208e3b740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:40:31.2487 13782/7fb208e3b740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 13782
+App 13822 stdout: 
+App 13893 stdout: 
+
+[ 2016-01-31 16:40:39.3217 13782/7fb206f4d700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:40:39.3218 13782/7fb208e3b740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2016-01-31 16:40:39.3219 13777/7fe9d7fff700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:40:39.3220 13777/7fe9de454740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:40:39.3220 13782/7fb206f4d700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:40:39.3220 13782/7fb20674c700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:40:39.3220 13777/7fe9de454740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13893, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:40:39.3220 13782/7fb20674c700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:40:39.3224 13777/7fe9d6ffd700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:40:39.3225 13777/7fe9d6ffd700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:40:39.3225 13777/7fe9d67fc700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:40:39.3226 13777/7fe9d67fc700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:40:39.3227 13777/7fe9d7fff700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:40:39.3227 13777/7fe9d7fff700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:40:39.3228 13777/7fe9d77fe700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:40:39.3228 13777/7fe9d77fe700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:40:39.3228 13777/7fe9d5ffb700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:40:39.3228 13777/7fe9d5ffb700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:40:39.3230 13777/7fe9de454740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 13893, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:40:39.3232 13782/7fb208e3b740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:40:39.5246 13777/7fe9de454740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:44:36.2417 14430/7f9d81059740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:44:36.2504 14433/7f1c5cf5f740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:44:36.2507 14433/7f1c5cf5f740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:44:36.2543 14433/7f1c5cf5f740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 14433
+[ 2016-01-31 16:44:36.2670 14440/7f384bf3a740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:44:36.2679 14440/7f384bf3a740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 14440
+App 14478 stdout: 
+App 14478 stdout: 
+[ 2016-01-31 16:44:40.4106 14433/7f1c58408700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/jjones2/gitdir/log_stream: An error occurred while starting up the preloader.
+  Error ID: 3b9d5777
+  Error details saved to: /tmp/passenger-error-NQjBRX.html
+  Message from application: /home/jjones2/gitdir/log_stream/app/controllers/stream_controller.rb:6: syntax error, unexpected tSYMBEG, expecting ')'
+    def stream(:pid="",:logfile="/log/streamtest.log")
+                ^
+/home/jjones2/gitdir/log_stream/app/controllers/stream_controller.rb:6: syntax error, unexpected ')', expecting keyword_end
+/home/jjones2/gitdir/log_stream/app/controllers/stream_controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `require'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `require'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:360:in `require_or_load'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:317:in `depend_on'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:233:in `require_dependency'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:472:in `block (2 levels) in eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:471:in `each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:471:in `block in eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:469:in `each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:469:in `eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:346:in `eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:56:in `each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/jjones2/gitdir/log_stream/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:110:in `eval'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-01-31 16:44:40.4184 14433/7f1c5ae92700 age/Cor/Con/CheckoutSession.cpp:277 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 3b9d5777. Please see earlier logs for details about the error.
+
+
+[ 2016-01-31 16:44:53.8425 14433/7f1c5ae92700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:44:53.8425 14440/7f384a04c700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:44:53.8425 14433/7f1c5cf5f740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:44:53.8426 14440/7f384bf3a740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:44:53.8427 14440/7f384a04c700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:44:53.8428 14433/7f1c5ae92700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:44:53.8429 14433/7f1c5ae92700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:44:53.8432 14433/7f1c5a610700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:44:53.8432 14433/7f1c5a610700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:44:53.8433 14440/7f384984b700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:44:53.8433 14440/7f384984b700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:44:53.8434 14433/7f1c58c8a700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:44:53.8435 14433/7f1c58c8a700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:44:53.8436 14433/7f1c5950c700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:44:53.8437 14433/7f1c5950c700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:44:53.8438 14433/7f1c59d8e700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:44:53.8439 14433/7f1c59d8e700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:44:53.8447 14440/7f384bf3a740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:44:53.8568 14433/7f1c5cf5f740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:45:08.4857 14712/7fd030421740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:45:08.4916 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:45:08.4918 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:45:08.4943 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 14715
+[ 2016-01-31 16:45:08.4994 14723/7f293d961740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:45:08.4998 14723/7f293d961740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 14723
+App 14760 stdout: 
+App 14831 stdout: 
+App 14847 stdout: 
+
+
+[ 2016-01-31 16:45:44.9060 14715/7ffaab7fe700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:45:44.9060 14723/7f293ba73700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:45:44.9061 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:45:44.9061 14723/7f293d961740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:45:44.9062 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 14831, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:45:44.9063 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 14847, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:45:44.9063 14723/7f293b272700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:45:44.9063 14723/7f293b272700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:45:44.9066 14715/7ffaaa7fc700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:45:44.9066 14715/7ffaaa7fc700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:45:44.9068 14715/7ffaa97fa700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:45:44.9068 14715/7ffaaaffd700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:45:44.9069 14715/7ffaa97fa700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:45:44.9069 14715/7ffaaaffd700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:45:44.9069 14723/7f293ba73700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:45:44.9073 14715/7ffaab7fe700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:45:44.9073 14715/7ffaa9ffb700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:45:44.9073 14715/7ffaab7fe700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:45:44.9074 14723/7f293d961740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:45:44.9074 14715/7ffaa9ffb700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:45:44.9076 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 14831, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:45:44.9077 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 14847, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:45:45.2218 14715/7ffab1bcc740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:48:59.8091 15528/7fb81b3f3740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:48:59.8162 15531/7f080059f740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:48:59.8164 15531/7f080059f740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:48:59.8196 15531/7f080059f740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 15531
+[ 2016-01-31 16:48:59.8288 15538/7f7ccc9ae740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:48:59.8294 15538/7f7ccc9ae740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 15538
+App 15576 stdout: 
+App 15647 stdout: 
+
+
+[ 2016-01-31 16:49:42.5738 15538/7f7ccaac0700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:49:42.5738 15531/7f07fe4d2700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:49:42.5739 15538/7f7ccc9ae740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:49:42.5739 15531/7f080059f740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:49:42.5740 15531/7f080059f740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 15647, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:49:42.5741 15538/7f7ccaac0700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:49:42.5741 15538/7f7cca2bf700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:49:42.5741 15538/7f7cca2bf700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:49:42.5744 15531/7f07fd3ce700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:49:42.5745 15531/7f07fd3ce700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:49:42.5748 15531/7f07fdc50700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:49:42.5748 15531/7f07fcb4c700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:49:42.5749 15531/7f07fdc50700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:49:42.5749 15531/7f07fcb4c700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:49:42.5752 15531/7f07fe4d2700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:49:42.5752 15531/7f07fe4d2700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:49:42.5753 15531/7f07cffff700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:49:42.5753 15531/7f07cffff700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:49:42.5754 15531/7f080059f740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 15647, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:49:42.5759 15538/7f7ccc9ae740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:49:42.8905 15531/7f080059f740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:50:35.3844 15965/7f8dd7451740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:50:35.3886 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:50:35.3887 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:50:35.3900 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 15968
+[ 2016-01-31 16:50:35.3958 15976/7fb469f28740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:50:35.3962 15976/7fb469f28740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 15976
+App 16013 stdout: 
+App 16084 stdout: 
+
+
+[ 2016-01-31 16:51:04.7043 15968/7f4ea5bf9700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:51:04.7043 15976/7fb463fff700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:51:04.7044 15976/7fb469f28740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:51:04.7044 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:51:04.7045 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 16084, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:51:04.7045 15976/7fb463fff700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:51:04.7045 15976/7fb4637fe700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:51:04.7046 15976/7fb4637fe700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:51:04.7050 15968/7f4e9f7fe700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:51:04.7051 15968/7f4e9f7fe700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:51:04.7051 15968/7f4ea5bf9700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:51:04.7051 15968/7f4ea4af5700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:51:04.7052 15968/7f4ea5bf9700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:51:04.7052 15968/7f4ea4af5700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:51:04.7053 15968/7f4ea5377700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:51:04.7054 15968/7f4ea5377700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:51:04.7055 15968/7f4e9ffff700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:51:04.7055 15968/7f4e9ffff700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:51:04.7056 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 16084, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:51:04.7062 15976/7fb469f28740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:51:05.0081 15968/7f4ea7cc6740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:51:41.7439 16426/7fcadde3a740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:51:41.7506 16429/7f06b07cf740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:51:41.7508 16429/7f06b07cf740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:51:41.7535 16429/7f06b07cf740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 16429
+[ 2016-01-31 16:51:41.7616 16436/7fc16e12f740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:51:41.7622 16436/7fc16e12f740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 16436
+App 16474 stdout: 
+App 16545 stdout: 
+App 16545 stdout: true
+App 16474 stderr: Usage: grep [OPTION]... PATTERN [FILE]...
+App 16474 stderr: Try 'grep --help' for more information.
+
+
+[ 2016-01-31 16:52:11.4989 16436/7fc167fff700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:52:11.4989 16429/7f06ae702700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:52:11.4990 16436/7fc16e12f740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:52:11.4990 16429/7f06b07cf740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:52:11.4991 16429/7f06b07cf740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 16545, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:52:11.4991 16436/7fc167fff700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:52:11.4992 16436/7fc1677fe700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:52:11.4992 16436/7fc1677fe700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:52:11.4996 16429/7f06ade80700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:52:11.4996 16429/7f06ade80700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:52:11.4997 16429/7f06acd7c700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:52:11.4997 16429/7f06a7fff700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:52:11.4997 16429/7f06a7fff700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:52:11.4997 16429/7f06acd7c700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:52:11.5000 16429/7f06ad5fe700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:52:11.5001 16429/7f06ad5fe700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:52:11.5001 16429/7f06ae702700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:52:11.5001 16429/7f06ae702700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:52:11.5003 16429/7f06b07cf740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 16545, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:52:11.5009 16436/7fc16e12f740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:52:11.8138 16429/7f06b07cf740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 16:53:30.1985 16976/7f108673b740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 16:53:30.2041 16979/7f678aeb2740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 16:53:30.2043 16979/7f678aeb2740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 16:53:30.2067 16979/7f678aeb2740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 16979
+[ 2016-01-31 16:53:30.2116 16986/7fefb31e9740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 16:53:30.2119 16986/7fefb31e9740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 16986
+App 17024 stdout: 
+App 17096 stdout: 
+App 17096 stdout: 
+App 17024 stderr: Usage: grep [OPTION]... PATTERN [FILE]...
+App 17024 stderr: Try 'grep --help' for more information.
+
+
+[ 2016-01-31 16:53:53.1759 16986/7fefb12fb700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:53:53.1759 16979/7f6788de5700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 16:53:53.1760 16986/7fefb31e9740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:53:53.1760 16979/7f678aeb2740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 16:53:53.1760 16979/7f678aeb2740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 17096, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:53:53.1761 16986/7fefb0afa700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:53:53.1761 16986/7fefb0afa700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 16:53:53.1762 16986/7fefb12fb700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 16:53:53.1763 16979/7f6773fff700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 16:53:53.1764 16979/7f6773fff700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 16:53:53.1766 16979/7f67737fe700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 16:53:53.1767 16979/7f67727fc700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 16:53:53.1767 16979/7f67737fe700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 16:53:53.1767 16979/7f67727fc700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 16:53:53.1767 16979/7f6772ffd700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 16:53:53.1768 16979/7f6772ffd700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 16:53:53.1769 16979/7f6788de5700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 16:53:53.1769 16979/7f6788de5700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 16:53:53.1771 16979/7f678aeb2740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 17096, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 16:53:53.1771 16986/7fefb31e9740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 16:53:53.4910 16979/7f678aeb2740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 17:02:29.5208 18989/7fa9c7333740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 17:02:29.5462 18992/7f12c849f740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 17:02:29.5464 18992/7f12c849f740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 17:02:29.5480 18992/7f12c849f740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 18992
+[ 2016-01-31 17:02:29.5555 18999/7f15aeafa740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 17:02:29.5559 18999/7f15aeafa740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 18999
+App 19037 stdout: 
+App 19108 stdout: 
+[ 2016-01-31 17:02:44.0207 18992/7f12c52ce700 age/Cor/Con/InternalUtils.cpp:105 ]: [Client 3-1] Sending 502 response: application did not send a complete response
+App 19108 stdout: 19132 19037 18982
+[ 2016-01-31 17:02:47.0338 18992/7f12c847c700 age/Cor/App/Poo/AnalyticsCollection.cpp:105 ]: Process (pid=19108, group=/home/jjones2/gitdir/log_stream/public (development)) no longer exists! Detaching it from the pool.
+[ 2016-01-31 17:02:47.0339 18992/7f12c847c700 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 19108, application /home/jjones2/gitdir/log_stream/public (development)
+App 19138 stdout: 
+
+
+[ 2016-01-31 17:03:10.1126 18992/7f12c63d2700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 17:03:10.1125 18999/7f15acc0c700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 17:03:10.1126 18999/7f15aeafa740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 17:03:10.1126 18992/7f12c849f740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 17:03:10.1127 18992/7f12c849f740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 19138, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 17:03:10.1127 18999/7f159ffff700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 17:03:10.1127 18999/7f15acc0c700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 17:03:10.1127 18999/7f159ffff700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 17:03:10.1131 18992/7f12c5b50700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 17:03:10.1132 18992/7f12c5b50700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 17:03:10.1132 18992/7f12c52ce700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 17:03:10.1133 18992/7f12c52ce700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 17:03:10.1134 18992/7f12c63d2700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 17:03:10.1134 18992/7f12c63d2700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 17:03:10.1134 18992/7f12c4a4c700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 17:03:10.1135 18992/7f12c4a4c700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 17:03:10.1136 18992/7f1297fff700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 17:03:10.1136 18992/7f1297fff700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 17:03:10.1137 18992/7f12c849f740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 19138, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 17:03:10.1141 18999/7f15aeafa740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 17:03:10.3178 18992/7f12c849f740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 17:06:10.3433 20133/7fb445a2f740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 17:06:10.3488 20136/7f3d090da740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 17:06:10.3490 20136/7f3d090da740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 17:06:10.3512 20136/7f3d090da740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 20136
+[ 2016-01-31 17:06:10.3578 20143/7fec7c943740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 17:06:10.3582 20143/7fec7c943740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 20143
+App 20235 stdout: 
+App 20235 stdout: 
+[ 2016-01-31 17:06:14.4427 20136/7f3d04583700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/jjones2/gitdir/log_stream: An error occurred while starting up the preloader.
+  Error ID: 2e4f1802
+  Error details saved to: /tmp/passenger-error-vbQL9I.html
+  Message from application: /home/jjones2/gitdir/log_stream/app/controllers/stream_controller.rb:6: syntax error, unexpected '[', expecting ';' or '\n'
+    def stream[:params]
+               ^
+/home/jjones2/gitdir/log_stream/app/controllers/stream_controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `require'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `require'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:360:in `require_or_load'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:317:in `depend_on'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:233:in `require_dependency'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:472:in `block (2 levels) in eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:471:in `each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:471:in `block in eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:469:in `each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:469:in `eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:346:in `eager_load!'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:56:in `each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/jjones2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/jjones2/gitdir/log_stream/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:110:in `eval'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /home/jjones2/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.23/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-01-31 17:06:14.4538 20136/7f3d0700d700 age/Cor/Con/CheckoutSession.cpp:277 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 2e4f1802. Please see earlier logs for details about the error.
+
+[ 2016-01-31 17:06:25.2178 20136/7f3d0700d700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 17:06:25.2179 20136/7f3d090da740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 17:06:25.2184 20136/7f3d0700d700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 17:06:25.2185 20136/7f3d0700d700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 17:06:25.2185 20136/7f3d0678b700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 17:06:25.2185 20136/7f3d0678b700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+
+[ 2016-01-31 17:06:25.2187 20143/7fec7aa55700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 17:06:25.2187 20136/7f3d05687700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 17:06:25.2188 20136/7f3d05687700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 17:06:25.2188 20143/7fec7c943740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 17:06:25.2190 20136/7f3d05f09700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 17:06:25.2190 20143/7fec7a254700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 17:06:25.2190 20136/7f3d05f09700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 17:06:25.2190 20143/7fec7a254700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 17:06:25.2191 20143/7fec7aa55700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 17:06:25.2190 20136/7f3d04e05700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 17:06:25.2197 20136/7f3d04e05700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 17:06:25.2199 20143/7fec7c943740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 17:06:25.2246 20136/7f3d090da740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2016-01-31 17:08:18.0985 20891/7fb08cba7740 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2016-01-31 17:08:18.1031 20894/7f1a698b2740 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2016-01-31 17:08:18.1032 20894/7f1a698b2740 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2016-01-31 17:08:18.1047 20894/7f1a698b2740 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 20894
+[ 2016-01-31 17:08:18.1100 20902/7f1bdb054740 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2016-01-31 17:08:18.1103 20902/7f1bdb054740 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 20902
+App 20939 stdout: 
+App 21010 stdout: 
+[ 2016-01-31 17:08:28.6367 20894/7f1a666e1700 age/Cor/Con/InternalUtils.cpp:105 ]: [Client 3-1] Sending 502 response: application did not send a complete response
+App 21010 stdout: 21021 20939 20884
+[ 2016-01-31 17:08:31.0276 20894/7f1a6988f700 age/Cor/App/Poo/AnalyticsCollection.cpp:105 ]: Process (pid=21010, group=/home/jjones2/gitdir/log_stream/public (development)) no longer exists! Detaching it from the pool.
+[ 2016-01-31 17:08:31.0277 20894/7f1a6988f700 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 21010, application /home/jjones2/gitdir/log_stream/public (development)
+App 21027 stdout: 
+
+
+[ 2016-01-31 17:08:35.8184 20902/7f1bd9166700 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 17:08:35.8184 20894/7f1a677e5700 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-01-31 17:08:35.8185 20902/7f1bdb054740 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 17:08:35.8185 20894/7f1a698b2740 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-01-31 17:08:35.8186 20894/7f1a698b2740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 21027, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 17:08:35.8186 20902/7f1bd9166700 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2016-01-31 17:08:35.8186 20902/7f1bd8965700 Ser/Server.h:759 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-01-31 17:08:35.8187 20902/7f1bd8965700 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-01-31 17:08:35.8192 20894/7f1a666e1700 Ser/Server.h:759 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-01-31 17:08:35.8193 20894/7f1a666e1700 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2016-01-31 17:08:35.8193 20894/7f1a65e5f700 Ser/Server.h:759 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-01-31 17:08:35.8193 20894/7f1a66f63700 Ser/Server.h:759 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-01-31 17:08:35.8194 20894/7f1a65e5f700 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2016-01-31 17:08:35.8194 20894/7f1a66f63700 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2016-01-31 17:08:35.8195 20894/7f1a655dd700 Ser/Server.h:759 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-01-31 17:08:35.8196 20894/7f1a655dd700 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2016-01-31 17:08:35.8197 20894/7f1a677e5700 Ser/Server.h:759 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-01-31 17:08:35.8197 20894/7f1a677e5700 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2016-01-31 17:08:35.8199 20894/7f1a698b2740 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 21027, application /home/jjones2/gitdir/log_stream/public (development)
+[ 2016-01-31 17:08:35.8200 20902/7f1bdb054740 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2016-01-31 17:08:36.0213 20894/7f1a698b2740 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished

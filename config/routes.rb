@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'messages#index'
+  post '/messages/starttest' => 'messages#streamfire'
   get '/stream/stream' => 'stream#stream'
 
   # Example of regular route:
