@@ -3,18 +3,18 @@ class StreamController < ApplicationController
 
 
 
-    def stream
+    def stream(pid='0000',logfile="/log/test.txt")
         old_last = "first"
 	old_number_of_lines = 0
 	response.header['Content-Type'] = 'text/event'
 	#100.times {
-	while `ps -ef | grep 9472 | grep -v grep` != "" do
-          number_of_lines = `wc -l /home/jjones2/filetail.txt | awk -F" " '{print $1}'`
+	while `ps -ef | grep #{pid} | grep -v grep` != "" do
+          number_of_lines = `wc -l #{logfile} | awk -F" " '{print $1}'`
 	  if old_last == "first"
-	    last_line = File.open('/home/jjones2/filetail.txt') { |f| f.read }
+	    last_line = File.open(logfile) { |f| f.read }
 	  else
 	    n = number_of_lines.to_i - old_number_of_lines.to_i 
-	    last_line = `tail -"#{n}" /home/jjones2/filetail.txt`
+	    last_line = `tail -"#{n}" #{logfile}`
 	  end
 	  if old_last == last_line 
 		  write_line = ""
